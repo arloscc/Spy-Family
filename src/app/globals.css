@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin:  0;
+  padding:  0;
+  text-decoration: none;
+box-sizing: border-box;
+}
+
+.image{
+  position: absolute;
+  margin: 6rem 0 0 0;
+}
+
+.image{
+  background-image: url('../../public/wall.jpg');
+  width: 100%;
+  height: 110vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.scale{
+  transition: transform .2s;
+}
+.scale:hover{
+  transform: scale(1.1);
+}
+
+.m{
+  margin-right: 2rem;
+}
+
+@media screen and (min-width: 768px){
+  
+}
